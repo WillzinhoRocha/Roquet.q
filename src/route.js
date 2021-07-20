@@ -6,4 +6,7 @@ route.get("/", (req, res) => res.render("index"));
 route.get("/room", (req, res) => res.render("room"));
 route.get("/create-room", (req, res) => res.render("create-room"));
 
+//Formato que o formulário de dentro da modal tem que passasr
+//route.post("/room/:room/:question/:action", (req, res) => res.render(""));
+
 module.exports = route;
